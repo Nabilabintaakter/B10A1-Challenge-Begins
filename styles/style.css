@@ -195,8 +195,9 @@ body{
     /* border: 1px solid red; */
     margin: 0 auto;
     margin-top: 90px;
+    margin-bottom: 151px;
 }
-.inspiration-text{
+.inspiration-text, .target-text{
     width: 852px;
     height: 113px;
     /* border: 1px solid green; */
@@ -207,14 +208,14 @@ body{
     align-items: center;
     margin-bottom: 48px;
 }
-.inspiration-text h2{
+.inspiration-text h2, .target-text h2{
     color: rgb(13, 19, 33);
     font-family: Inter;
     font-size: 32px;
     font-weight: 800;
     margin-bottom: 24px;
 }
-.inspiration-text p{
+.inspiration-text p, .target-text p{
     color: rgb(13, 19, 33);
     font-family: Inter;
     font-size: 16px;
@@ -241,4 +242,22 @@ body{
 .frame-border{
     /* border: 5px solid red; */
     border-radius:16px;
+}
+
+                 /* my current target section style starts here */
+.target-section-container{
+    width: 1140px;
+    height: 460px;
+    border: 2px solid red;
+    margin: 0 auto;
+    margin-bottom: 111px;
+}
+.target-text{
+    margin-bottom: 48px;
+}
+.card-container{
+    width: 1140px;
+    height: 299px;
+    border: 2px solid green;
+
 }
