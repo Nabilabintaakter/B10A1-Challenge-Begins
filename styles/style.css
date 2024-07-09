@@ -325,5 +325,34 @@ body{
     background-size: cover;
     background-blend-mode: overlay;
     border-radius: 16px;
+}
+.support-content{
+    width: 1044px;
+    height: 185px;
+    border: 2px solid pink;
+    margin: 0 auto;
+    margin-top: 64px;
+}
+.need-support-text{
+    width: 730px;
+    height: 104px;
+    border: 2px solid blue;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.need-support-text h4{
+    color: rgb(255, 255, 255);
+    font-family: inter;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.need-support-text p{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
 
 }
