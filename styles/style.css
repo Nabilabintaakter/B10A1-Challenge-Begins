@@ -387,3 +387,41 @@ body{
     color: white;
     border: 2px solid white;
 }
+
+                /* The footer section style starts here */
+
+.footer-section-container{
+    width: 1440px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 0 auto;
+    border-radius: 16px;
+    margin-bottom: 600px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.author-info{
+    width: 1140px;
+    height: 36px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+.commitment{
+    padding-top: 6.5px;
+    padding-bottom: 6.4px;
+}
+.commitment h5{
+    color: rgb(13, 19, 33);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-icon{
+    height: 36px;
+    width: 200px;
+    border: 2px solid skyblue;
+    display: flex;
+    justify-content: space-around;
+}
