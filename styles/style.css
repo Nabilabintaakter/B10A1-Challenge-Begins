@@ -1,5 +1,6 @@
 /* font styles */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 *{
     margin: 0;
     border: 0;
@@ -9,7 +10,53 @@ body{
     font-family: "Inter", sans-serif;
 }
 
-                /* banner section style starts here */
+                    /* navbar style starts from here */
+nav{
+    width: 1140px;
+    height: 80px;
+    /* border: 5px solid red; */
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title{
+    color: rgb(13, 19, 33);
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 800;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 0px;
+}
+.download-button{
+    width: 228px;
+    height: 58px;
+    color: rgb(13, 19, 33);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;  
+    box-sizing: border-box;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+.download-button:hover{
+    background-color: #3D424D;
+    color: white;
+    border: white;
+}
+
+                   /* banner section style starts here */
 .banner-section-container{
     width: 1440px;
     height: 652px;
@@ -51,7 +98,6 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-
 .btn-parent{
     width: 208px;
     height: 66px;
@@ -76,7 +122,7 @@ body{
     border: 2px solid blue;
 }
 
-                /* aim section style starts here */
+                   /* aim section style starts here */
 .aim-section-container{
     width: 1140px;
     height: 1393px;
@@ -431,7 +477,7 @@ body{
 .contact-icon{
     height: 36px;
     width: 200px;
-    /* border: 2px solid skyblue; */
     display: flex;
     justify-content: space-around;
 }
+                    /* And the project ends here */
