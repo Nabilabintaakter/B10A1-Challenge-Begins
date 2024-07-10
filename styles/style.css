@@ -193,6 +193,10 @@ body{
     font-weight: 600;  
     cursor: pointer; 
 }
+.learn-btn:hover{
+    background-color: #555963;
+    color: white;
+}
  
                  /* inspiration section style starts here */
 .inspiration-section-container{
@@ -385,13 +389,14 @@ body{
     font-family: Inter;
     font-size: 20px;
     font-weight: 600;
-    padding: 17px 20px;
+    padding: 17px 24px;
     cursor: pointer;
 }
 .submit:hover{
     background-color:#01040A;
     color: white;
     border: 2px solid white;
+    font-size: 20px ;
 }
 
                 /* The footer section style starts here */
@@ -402,7 +407,6 @@ body{
     border: 0.01px solid rgba(13, 19, 33, 0.03);
     margin: 0 auto;
     border-radius: 16px;
-    margin-bottom: 600px;
     background: rgba(13, 19, 33, 0.03);
 }
 .author-info{
